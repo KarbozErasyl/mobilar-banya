@@ -1,16 +1,20 @@
 * {
     box-sizing: border-box;
   }
-  
+
   body {
     margin: 0;
-    font-family: sans-serif;
-    background: #f5f6f7;
-  }
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: white;
+    background-size: cover;        /* Изображение покрывает весь экран */
+    background-position: center;   /* Центрирование изображения */
+    background-repeat: no-repeat;  /* Изображение не повторяется */
+    filter: grayscale(45%);
+    }
   
   .header {
     text-align: center;
-    text-transform: uppercase;
     padding: 32px;
     background-color: #0a0a23;
     color: #fff;
@@ -41,4 +45,30 @@
     content: "";
     width: 350px;
   }
-  
+  .container {
+    display: flex;
+    justify-content: space-between; /* Расстояние между словами */
+    width: 200px; /* Ширина контейнера */
+}
+.hg{
+    display: inline-block;
+}
+
+p {
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+ul {
+    margin: 10px 0;
+}
+li {
+    margin: 5px 0;
+}
+ .containe {
+    max-width: 800px;
+    margin: 0 auto;
+}
+.highlight {
+    color: #0066cc;
+    font-weight: bold;
+}
